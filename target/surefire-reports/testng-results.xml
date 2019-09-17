@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="74246" started-at="2019-09-16T15:46:05Z" finished-at="2019-09-16T15:47:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20415" started-at="2019-09-16T15:46:05Z" finished-at="2019-09-16T15:46:26Z">
+      <class name="practice.BasicMaven.Validate_Nav_bar">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:practice.BasicMaven.Validate_Nav_bar@735f7ae5]" name="initialise" is-config="true" duration-ms="18886" started-at="2019-09-16T21:16:05Z" finished-at="2019-09-16T21:16:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="validate_navigate_bar()[pri:0, instance:practice.BasicMaven.Validate_Nav_bar@735f7ae5]" name="validate_navigate_bar" duration-ms="925" started-at="2019-09-16T21:16:24Z" finished-at="2019-09-16T21:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_navigate_bar -->
+        <test-method status="PASS" signature="browerselose()[pri:0, instance:practice.BasicMaven.Validate_Nav_bar@735f7ae5]" name="browerselose" is-config="true" duration-ms="551" started-at="2019-09-16T21:16:25Z" finished-at="2019-09-16T21:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browerselose -->
+      </class> <!-- practice.BasicMaven.Validate_Nav_bar -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="12983" started-at="2019-09-16T15:46:26Z" finished-at="2019-09-16T15:46:39Z">
+      <class name="practice.BasicMaven.ValidateTitle">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:practice.BasicMaven.ValidateTitle@735b478]" name="initialise" is-config="true" duration-ms="12397" started-at="2019-09-16T21:16:26Z" finished-at="2019-09-16T21:16:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="ValidateTheTitle()[pri:0, instance:practice.BasicMaven.ValidateTitle@735b478]" name="ValidateTheTitle" duration-ms="422" started-at="2019-09-16T21:16:39Z" finished-at="2019-09-16T21:16:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTheTitle -->
+        <test-method status="PASS" signature="browerselose()[pri:0, instance:practice.BasicMaven.ValidateTitle@735b478]" name="browerselose" is-config="true" duration-ms="162" started-at="2019-09-16T21:16:39Z" finished-at="2019-09-16T21:16:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browerselose -->
+      </class> <!-- practice.BasicMaven.ValidateTitle -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="40260" started-at="2019-09-16T15:46:39Z" finished-at="2019-09-16T15:47:19Z">
+      <class name="practice.BasicMaven.HomePage">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:practice.BasicMaven.HomePage@13c78c0b]" name="initialise" is-config="true" duration-ms="5473" started-at="2019-09-16T21:16:39Z" finished-at="2019-09-16T21:16:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:practice.BasicMaven.HomePage@13c78c0b]" name="basePageNavigation" duration-ms="22898" started-at="2019-09-16T21:16:45Z" data-provider="getdata" finished-at="2019-09-16T21:17:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pratiksha1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pratiksha1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:practice.BasicMaven.HomePage@13c78c0b]" name="basePageNavigation" duration-ms="11668" started-at="2019-09-16T21:17:08Z" data-provider="getdata" finished-at="2019-09-16T21:17:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pratiksha2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pratiksha2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="browerselose()[pri:0, instance:practice.BasicMaven.HomePage@13c78c0b]" name="browerselose" is-config="true" duration-ms="217" started-at="2019-09-16T21:17:19Z" finished-at="2019-09-16T21:17:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browerselose -->
+      </class> <!-- practice.BasicMaven.HomePage -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="0" started-at="2019-09-16T15:47:20Z" finished-at="2019-09-16T15:47:20Z">
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>

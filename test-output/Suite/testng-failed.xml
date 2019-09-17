@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="practice.BasicMaven.Validate_Nav_bar">
+        <methods>
+          <include name="browerselose"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- practice.BasicMaven.Validate_Nav_bar -->
+      <class name="practice.BasicMaven.HomePage">
+        <methods>
+          <include name="initialise"/>
+          <include name="browerselose"/>
+        </methods>
+      </class> <!-- practice.BasicMaven.HomePage -->
+      <class name="practice.BasicMaven.ValidateTitle">
+        <methods>
+          <include name="initialise"/>
+          <include name="browerselose"/>
+          <include name="ValidateTheTitle"/>
+        </methods>
+      </class> <!-- practice.BasicMaven.ValidateTitle -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
